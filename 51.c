@@ -29,7 +29,7 @@ int main(){
 
     system("Pause");
 
-    //Calculando a distância entre os pontos P1 e P2, obs: raiz quadrada sendo arredonda.
+    //Calculando a distância entre os pontos P1 e P2, obs: raiz quadrada sendo arredondada.
     float distancia_pontos = sqrt(pow((P1x - P1y), 2) + pow((P2x - P2y), 2));
     printf("distancia: %f", round(distancia_pontos));
 
